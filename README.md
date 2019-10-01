@@ -1,6 +1,6 @@
 # CKA
 
-Lab 01
+<h1> Lab 01 </h1>
 
 <h2> Create a deployment named webapp in the web namespace and verify connectivity.</h2>
 
