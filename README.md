@@ -3,7 +3,7 @@
 Lab 01
 - Create a deployment named webapp in the web namespace and verify connectivity.
   Use the following command to create a namespace named web:
-`kubectl create ns web`
+  `kubectl create ns web`
 - Use the following command to create a deployment named webapp:
 `kubectl run webapp --image=linuxacademycontent/podofminerva:latest --port=80 --replicas=3 -n web`
 - Create a service named web-service and forward traffic from the pods.
