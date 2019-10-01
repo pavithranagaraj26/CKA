@@ -25,7 +25,8 @@
 ### Use the following command to modify the deployment:
 `kubectl edit deploy webapp -n web`
 ### Add the liveness probe and the readiness probe:
-```livenessProbe
+``` 
+livenessProbe
   httpGet:
     path: /healthz
     port: 8081
